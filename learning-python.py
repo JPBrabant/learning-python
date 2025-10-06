@@ -4,38 +4,12 @@
 # TODO : Learning Polars (ML / data science ?)
 
 
-# Match function
-match name
-    case "Harry" | "Hermione" | "Ron":
-        print("Gryffindor")
-    case "Draco":
-        print("Slytherin")
-    case _: # Catch-all
-        print("Who ?")
-        
         
 # For loop with list
-for i in [1,2,3]:
-    print(i)
-    
-for i in range(3):
-    print(i)
-    
-for _ in range(3): # If you don't care about the variable use an underscore. 
-    print(something)
+
     
 
-# Exception handling
-try:
-    print("Try this line")
-except ValueError:
-    print("Do this if ValueError is raised")
-else:
-    print("Do this if no errors is raised")
-    
-# Usefull Exception
-# - ValueError
-# - 
+
     
 
 # Pass keyword
