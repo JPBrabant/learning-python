@@ -22,6 +22,10 @@ Downloading all dependencies
 
     uv sync
 
+Seeing the depencies tree
+
+    uv tree
+
 Running a script
 
     uv run main.py
