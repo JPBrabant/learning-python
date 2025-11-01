@@ -29,9 +29,9 @@ Running a script
 
 ## Using uvx
 
-Allow you to run tools. Equivalent tu `uv run`
+Allow you to run tools. Equivalent to `uv run`.
 
-Running IPython to look at a parquet file
+Running IPython with pandas and pyarrow to look at a parquet file
 
     uvx --with pandas,pyarrow ipython
 
