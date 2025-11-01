@@ -29,10 +29,16 @@ Running a script
 
 ## Using uvx
 
+Allow you to run tools. Equivalent tu `uv run`
+
 Running IPython to look at a parquet file
 
     uvx --with pandas,pyarrow ipython
 
-Jupyter
+Jupyter lab
 
-    uvx --from jupyter-core jupyter lab
+    uvx --from jupyter-core --with jupyter jupyter lab
+
+Jupyter notebook
+
+    uvx --from jupyter-core --with jupyter jupyter notebook
