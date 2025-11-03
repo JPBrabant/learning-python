@@ -6,6 +6,12 @@
 
 ## Using uv
 
+Installing Python
+
+    uv python install --default # Install globaly
+    uv python upgrade           # Update python
+    uv python list              # List all available python version
+
 Starting a new project
 
     uv init
