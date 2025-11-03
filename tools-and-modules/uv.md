@@ -12,11 +12,11 @@ Starting a new project
 
 Adding dependencies
 
-    uv add pandas
+    uv add numpy pandas scikit-learn
 
 Adding dev dependencies
 
-    uv add --dev ...
+    uv add --dev ruff
 
 Downloading all dependencies
 
@@ -46,3 +46,7 @@ Jupyter lab
 Jupyter notebook
 
     uvx --from jupyter-core --with jupyter jupyter notebook
+
+ML template 
+
+    uvx --from cookiecutter-data-science ccds
